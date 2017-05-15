@@ -1,0 +1,50 @@
+.main-banner{
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight:bold;
+  /* Small type here. Should be font-weight: bold; */
+  color:khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+p{
+  font-family: Helvetica;
+  /* Nice. This is a good way to specify font. */
+}
+
+.brushesHeader, .framesHeader, .paintHeader {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.brushesHeader {
+  background-color: mediumspringgreen;
+}
+  /* I think there are some inefficiences here. See how you've written font-size,
+  font-family, font-weight, and color three separate times for each header? It would
+  be more efficient to style these all at once. Here is some example code:
+
+  .brushesHeader, .framesHeader, .paintHeader {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  */
+}
+
+.framesHeader {
+  background-color: lightcoral;
+}
+
+.paintHeader {
+  background-color: skyblue;
+}
+
+.blue{
+  font-weight: bold;
+  color: blue;
+}
+/* Overall great formatting on your CSS. Very clean. */
